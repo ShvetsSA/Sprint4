@@ -64,7 +64,7 @@ public static Object[][] getOrderFormData() {
     public DriverFactory factory = new DriverFactory();
 
     @Test
-        public void positiveOrderTest() throws Exception {
+        public void positiveOrderTest() {
         WebDriver driver = factory.getDriver();
         var mainPage = new MainPage(driver);
         var orderPage = new OrderPage(driver);
