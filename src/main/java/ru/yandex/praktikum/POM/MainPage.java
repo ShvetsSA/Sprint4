@@ -58,7 +58,7 @@ public class MainPage {
 
         //Кликаем по верхней или нижней кнопке "Заказать", в зависимости от входных параметров в тесте.
         //При параметре "top" будет задействована верхняя кнопка на главной странице,при "bottom" нижняя.
-        //для нижней кнопки задействованна прокрутка и ожидание видимости элемента
+        //для нижней кнопки задействована прокрутка и ожидание видимости элемента
         public void clickOrderButton(String orderButton){
             if (orderButton.equals("bottom")) {
                 WebElement bottom = driver.findElement(bottomButtonOrder);
